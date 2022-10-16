@@ -1,0 +1,16 @@
+#mapInda {
+    height: 545px;
+    width: 100%;   
+    top: 5px;
+}
+
+#ftid {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffff;
+    text-align: center;
+    font-size: 0.7em;
+    
+}
