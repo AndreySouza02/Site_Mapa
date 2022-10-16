@@ -1,8 +1,3 @@
-#mapInda {
-    height: 478px;
-    width: 100%;   
-}
-
 /* Alinhar no centro o navbar */
 nav{
     text-align: center;
@@ -32,9 +27,12 @@ body{
 }
 
 .menu{
+    /* Margem de cima */
+    margin-top: 26px;
     display: inline-block;
     /* Cor de fundo */
     background-color: black;
+    margin: 10px auto;
     width: 160px;
     height: 45px;  
     /* Margem interna de cima */

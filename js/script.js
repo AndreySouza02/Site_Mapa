@@ -1,4 +1,4 @@
-var map = L.map('mapInda').setView([-23.092128, -47.216663], 20);
+var map = L.map('mapInda').setView([-23.092128, -47.216663], 17);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -13,8 +13,8 @@ L.marker([-23.093747, -47.214603]).addTo(map)
     
     
 
-    function onMapClick(e) {
-        alert("You clicked the map at " + e.latlng);
-    }
+    // function onMapClick(e) {
+    //     alert("You clicked the map at " + e.latlng);
+    // }
     
-    map.on('click', onMapClick);
+    // map.on('click', onMapClick);
