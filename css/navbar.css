@@ -63,7 +63,7 @@ ul li a{
 
 /* Posicionar o footer fixo em baixo */
 footer{
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     left: 0px;
     width: 100%;

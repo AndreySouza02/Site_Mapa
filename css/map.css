@@ -1,5 +1,5 @@
 #mapInda {
-    height: 478px;
+    height: 812px;
     width: 100%;   
 }
 
@@ -32,6 +32,7 @@ body{
 }
 
 .menu{
+    margin-top: 10px;
     display: inline-block;
     /* Cor de fundo */
     background-color: black;
@@ -53,7 +54,6 @@ body{
 /* Ação que sera feita quando passar o mouse por cima */
 li:hover{
     transition: 1s;
-    color: black;
     background: #0dbbed;
 }
 
@@ -65,7 +65,7 @@ ul li a{
 
 /* Posicionar o footer fixo em baixo */
 footer{
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     left: 0px;
     width: 100%;
